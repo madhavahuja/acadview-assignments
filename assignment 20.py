@@ -5,7 +5,7 @@ import numpy as np
 d={'name':pd.Series(['madhav','nikhil','abhay','tanya']),
    'age':pd.Series([20,19,20,15]),
    'mail':pd.Series(['asdf@gmail.com','qwerty@gmail.com','zxcvb@gmail.com','poiuy@gmail.com']),
-   'phoneno':pd.Series([0987654321,1234567890,4567890123,0987651234])}
+   'phoneno':pd.Series([9087654321,1234567890,4567890123,9876512340])}
 df=pd.DataFrame(d,index=[1,2,3,4])
 print(df)
 print(df.axes)
